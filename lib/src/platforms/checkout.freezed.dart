@@ -22,7 +22,7 @@ CheckoutResponse _$CheckoutResponseFromJson(Map<String, dynamic> json) {
       return _Error.fromJson(json);
 
     default:
-      throw FallThroughError();
+      throw _privateConstructorUsedError;
   }
 }
 
